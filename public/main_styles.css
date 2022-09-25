@@ -1,0 +1,263 @@
+body {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+}
+.container {
+    width: 1172px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    width: 1360px;
+    padding-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(90deg, #FCFEFF 0%, #A5DEFF 99.45%);
+}
+
+.header_container {
+    display: flex;
+    margin-left: 95px;
+}
+
+.logo {
+    width: 100px; 
+    height: 32px;
+    margin-right: 16px;
+}
+
+.logo_text {
+    display: flex;
+    align-items: center;
+    color: #010101;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.hero {
+    width: 1360px;
+    height: 700px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+    background: linear-gradient(90deg, #FCFEFF 0%, #A5DEFF 99.45%); 
+}
+
+.hero_bloc{
+    width: 573px;
+    height: 497px;
+    padding-left: 56px;
+    padding-right: 73px;
+    margin-top: 120px;
+    margin-left: 95px;
+    background: #FFFFFF;
+}
+
+.hero_label {
+    margin-top: 13px;
+}
+
+.hero_accent {
+    margin-bottom: 48px;
+    color: #FF6B0A;
+    font-size: 24px;
+}
+
+.hero_btn {
+    width: 175px;
+    height: 48px;
+    margin-top: 48px;
+    border: none;
+    background: #FF6B0A;
+    border-radius: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: #1B1C1F;
+    font-size: 64px;
+    line-height: 72px;
+        /* identical to box height, or 112% */
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 48px;
+    line-height: 48px;
+        /* border: 1px solid #000000; */
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+h3{
+    /* display: flex;
+    align-items: center; */
+    color: #1B1C1F;
+    margin: 0;
+    margin-bottom: 32px;
+    margin-top: 16.5px;
+    font-size: 24px;
+    line-height: 24px;
+        /* identical to box height, or 100% */
+}
+
+p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+        /* or 150% */
+    color: #1B1C1F;
+}
+
+.facts_list {
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    margin-bottom: 73px;
+}
+
+.facts_item {
+    list-style-type: none;
+}
+
+.facts_header {
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
+.facts_abstract {
+    margin-bottom: 32px;
+    text-align: center;
+    padding-left: 242px;
+    padding-right: 242px;
+}
+
+.facts_text{
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
+footer {
+    padding-top: 31px;
+    margin-bottom: 71px;
+    background: linear-gradient(90deg, #FFFFFF 0%, #C2E9FF 99.45%);
+}
+
+.footer_text {
+    margin-left: 149px;
+    margin-right: 149px;
+    padding-bottom: 73px;
+    text-align: center;
+}
+
+.trezub {
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.modal {
+    width: 573px;
+    padding-top: 32px;
+    padding-bottom: 60px;
+    border: 1px solid red;
+    text-align: center;
+    background: #FFFFFF;
+}
+.modal_header {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 16px;
+}
+
+input {
+    width: 378px;
+    height: 48px;
+    margin-top: 8px;
+    padding-left: 5px;
+}
+.modal_btn {
+    margin-top: 40px;
+}
+
+.modal_send {
+    margin-top: 20px;
+    width: 573px;
+    padding-top: 32px;
+    padding-bottom: 60px;
+    border: 1px solid red;
+    text-align: center;
+    background: #1B1C1F;
+    border-radius: 10px;
+
+    
+    display: inline-block;
+    overflow: hidden;
+}
+
+.modal_dark_header {
+    color: #FFFFFF;
+}
+
+.modal_slogan {
+    z-index: 100;
+    font-size: 64px;
+    line-height: 72px;
+        /* or 112% */
+    text-align: center;
+    color: #FF6B0A;
+}
+
+.send_gus{
+    /* transition: 1s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    -webkit-animation: free_download 0.5s linear alternate infinite;
+        animation: free_download 0.5s linear alternate infinite;
+}
+/* .send_gus:hover{
+transform: scale(1.2);
+animation: pulse 2s ease-in-out infinite;
+} */
+
+
+
+@-webkit-keyframes free_download {
+    0% {
+        -webkit-transform: scale(0.8);
+    }
+
+    100% {
+        -webkit-transform: scale(1.2);
+    }
+}
+
+@keyframes free_download {
+    0% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
